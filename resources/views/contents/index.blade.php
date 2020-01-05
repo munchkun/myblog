@@ -219,9 +219,9 @@
                             </div>
                             <!-- Team Content -->
                             <div class="single-team-content">
-                                <h4>Cristinne Paul</h4>
-                                <span>Maneger</span>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibul. </p>
+                                <h4>安河内　竜二</h4>
+                                <span>Web Creater</span>
+                                <p>Python PHPの技術者。Web作成を行います。</p>
                             </div>
                         </div>
                     </div>
