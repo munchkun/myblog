@@ -12,23 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('contents/index');
+});
+Route::get('about/', function () {
+    return view('contents/about');
 });
 
-Route::get('services.html', function () {
-    return view('services');
+
+Route::get('app/', function () {
+    return view('contents/app');
 });
 
-Route::get('blog', 'BlogController@index');
+Route::get('blog/', 'BlogController@index');
 
-Route::get('contact.html', function () {
+Route::get('contact/', function () {
     return view('contact');
-});
-
-Route::get('elements.html', function () {
-    return view('elements');
-});
-
-Route::get('index.html', function () {
-    return view('index');
 });

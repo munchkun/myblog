@@ -11,7 +11,7 @@ class BlogController extends Controller
   public function index()
   {
     $data="test";
-    return view('blog',['data'=>$data]);
+    return view('contents/blog',['data'=>$data]);
   }
 
 }

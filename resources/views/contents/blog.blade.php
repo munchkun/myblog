@@ -1,6 +1,6 @@
 @extends('template')
-@section('title','タイトル')
-@section('description','ディスクリプション')
+@section('title','研究者ブログ')
+@section('description','性についての研究者のブログです。')
 @include('head')
 @include('header')
 @include('footer')
