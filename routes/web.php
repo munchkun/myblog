@@ -15,13 +15,13 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('services', function () {
+Route::get('services.html', function () {
     return view('services');
 });
 
 Route::get('blog', 'BlogController@index');
 
-Route::get('contact', function () {
+Route::get('contact.html', function () {
     return view('contact');
 });
 
