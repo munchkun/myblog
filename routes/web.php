@@ -18,3 +18,19 @@ Route::get('/', function () {
 Route::get('services', function () {
     return view('services');
 });
+
+Route::get('blog', function () {
+    return view('blog');
+});
+
+Route::get('contact', function () {
+    return view('contact');
+});
+
+Route::get('elements.html', function () {
+    return view('elements');
+});
+
+Route::get('index.html', function () {
+    return view('index');
+});
