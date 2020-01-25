@@ -102,14 +102,8 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="bradcumbContent text-right">
-                        <h2>About Us</h2>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">About Us</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">The Team</li>
-                            </ol>
-                        </nav>
+                        <h2>TOP</h2>
+
                     </div>
                 </div>
             </div>
