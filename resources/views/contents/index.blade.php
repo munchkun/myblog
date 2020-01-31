@@ -43,9 +43,9 @@
                             <div class="collapse navbar-collapse" id="selene-navbar">
                                 <ul class="navbar-nav ml-auto" id="nav">
                                     <li class="nav-item active"><a class="nav-link" href="index.html">Top</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">Goods</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="services.html">App</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Column</a></li>
                                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                                 </ul>
                                 <!-- Search btn -->
@@ -105,16 +105,16 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="aboutUs-headline">
-                        <h2>A team of great developers</h2>
+                        <h2>あなたの体の不適切な話</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet.</p>
+                    <p>先に断っておく。不適切な話というキャッチコピーにしたが、私はこれ（性的なこと）が不適切なことだとは1ミリも思っていない。あなたが思うより不適切なことはあなたの好奇心をくすぐることや驚かせることで溢れている。どんな分野でもそうだが、プロフェッショナルの話す内容は非常に面白いが、使う言葉が難しかったり、理解に苦しむ難解な趣旨であることも珍しくない。このサイトでは性的な分野の内容を万人にわかりやすく、女子大生の私の視点でまとめていく。</p>
                 </div>
                 <div class="col-12 col-md">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet.</p>
+                    <p>このサイトの目的は3つ。性的なことを科学的に研究する学問の分野がこの世には存在している。その分野に興味をもってくれる人間を増やすこと。また、この分野の初学者が楽しんで学んでもらえるように支援すること。最後に、その分野の研究者の仕事を増やしたり研究の支援をすること。そのために努力に限りを尽くしていこうと思うので、応援よろしくお願いいたします。</p>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="aboutUs-btn">
-                        <a class="text-center" href="#">Read More</a>
+                        <a class="text-center" href="#">コラムへいく</a>
                     </div>
                 </div>
             </div>
@@ -163,92 +163,14 @@
                             </div>
                             <!-- Team Content -->
                             <div class="single-team-content">
-                                <h4>Will Smith</h4>
-                                <span>Designer</span>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibul. </p>
+                                <h4>ムンチくん</h4>
+                                <span>サイト管理者</span>
+                                <p>性について色々調べている女子大生。生物学全般と実験心理学が趣味。</p>
                             </div>
                         </div>
                     </div>
                     <!-- Single Team Member Area -->
-                    <div class="col-12 col-sm-6 col-md-4 col-lg">
-                        <div class="single-team-member">
-                            <!-- Team Member Thumb -->
-                            <div class="team-member-thumb">
-                                <img src="img/team-img/2.png" alt="">
-                                <!-- Overlay -->
-                                <div class="team-member-overlay">
-                                    <a href="#"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                            <!-- Team Content -->
-                            <div class="single-team-content">
-                                <h4>Julius Mick</h4>
-                                <span>Team Leader</span>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibul. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Team Member Area -->
-                    <div class="col-12 col-sm-6 col-md-4 col-lg">
-                        <div class="single-team-member">
-                            <!-- Team Member Thumb -->
-                            <div class="team-member-thumb">
-                                <img src="img/team-img/3.png" alt="">
-                                <!-- Overlay -->
-                                <div class="team-member-overlay">
-                                    <a href="#"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                            <!-- Team Content -->
-                            <div class="single-team-content">
-                                <h4>安河内　竜二</h4>
-                                <span>Web Creater</span>
-                                <p>Python PHPの技術者。Web作成を行います。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Team Member Area -->
-                    <div class="col-12 col-sm-6 col-md-4 col-lg">
-                        <div class="single-team-member">
-                            <!-- Team Member Thumb -->
-                            <div class="team-member-thumb">
-                                <img src="img/team-img/4.png" alt="">
-                                <!-- Overlay -->
-                                <div class="team-member-overlay">
-                                    <a href="#"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                            <!-- Team Content -->
-                            <div class="single-team-content">
-                                <h4>Will Smith</h4>
-                                <span>Designer</span>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibul. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Team Member Area -->
-                    <div class="col-12 col-sm-6 col-md-4 col-lg">
-                        <div class="single-team-member">
-                            <!-- Team Member Thumb -->
-                            <div class="team-member-thumb">
-                                <img src="img/team-img/5.png" alt="">
-                                <!-- Overlay -->
-                                <div class="team-member-overlay">
-                                    <a href="#"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                            <!-- Team Content -->
-                            <div class="single-team-content">
-                                <h4>Will Smith</h4>
-                                <span>Designer</span>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibul. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    
     <!-- ***** Why Chose Us Area End ***** -->
 
     <!-- ***** Footer Area Start ***** -->
