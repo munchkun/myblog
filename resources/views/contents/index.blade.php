@@ -43,7 +43,7 @@
                             <div class="collapse navbar-collapse" id="selene-navbar">
                                 <ul class="navbar-nav ml-auto" id="nav">
                                     <li class="nav-item active"><a class="nav-link" href="index.html">Top</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="about.html">Goods</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">Donation</a></li>
                                     <li class="nav-item"><a class="nav-link" href="services.html">App</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.html">Column</a></li>
                                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
