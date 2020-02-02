@@ -47,7 +47,7 @@
 
               <div class="card-body">
                 <h5 class="card-title">研究者コラム</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">性科学に関連したコラムを掲載しています。こちらは主に性科学について最前線で研究している研究者の方々のコラムです。</p>
                 <div class="mx-auto" style="width: 200px;">
                   <div class="aboutUs-btn">
                       <a class="text-center" href="/blog/researcher">コラムへいく</a>
@@ -60,7 +60,7 @@
             <div class="card" style="width: 20rem;">
             <div class="card-body">
               <h5 class="card-title">ムギコラム</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">サイト管理人のムギちゃんのコラム。研究者の方々のような目線では書けないけど一般の方々にも読みやすいような読み物として更新していきます。</p>
               <div class="mx-auto" style="width: 200px;">
                 <div class="aboutUs-btn">
                     <a class="text-center" href="/blog/mugi">コラムへいく</a>
