@@ -22,11 +22,8 @@ Route::get('app/', function () {
 });
 
 
-
-
-
 Route::get('contact/', function () {
-    return view('contact');
+    return view('contents/contact');
 });
 
 
