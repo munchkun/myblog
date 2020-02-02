@@ -47,6 +47,11 @@
             <div class="card-body">
               <h5 class="card-title">{{$blog->title}}</h5>
               <p class="card-text">{{ str_limit($blog->body, $limit = 150, $end = '...') }}</p>
+              <div class="mx-auto" style="width: 200px;">
+                <div class="aboutUs-btn">
+                    <a class="text-center" href="{{$blog->path()}}">コラムへいく</a>
+                </div>
+              </div>
             </div>
           </div>
           @endforeach
