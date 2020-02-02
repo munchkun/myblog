@@ -26,7 +26,7 @@ class TopController extends Controller
   public function blogresearcher()
   {
 
-    $blogs=Blog::all();
+    $blogs=Blog::where('blog_type_id',1)->get();
 
     return view('contents/blogs/researchercolumn',['blogs'=>$blogs]);
   }
@@ -34,7 +34,8 @@ class TopController extends Controller
   public function blogmugi()
   {
 
-    $blogs=Blog::all();
+    $blogs=Blog::where('blog_type_id',2)->get();
+
 
     return view('contents/blogs/mugicolumn',['blogs'=>$blogs]);
   }

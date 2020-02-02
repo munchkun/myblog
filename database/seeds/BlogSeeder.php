@@ -11,6 +11,10 @@ class BlogSeeder extends Seeder
      */
     public function run()
     {
+      DB::table('blog_types')->insert([
+          ['name' => '研究者'],
+          ['name' => 'ムギ'],
+      ]);
       DB::table('media_types')->insert([
       		['name' => '写真'],
       		['name' => '動画'],
@@ -18,7 +22,14 @@ class BlogSeeder extends Seeder
       for ($i = 1; $i <= 5; $i++) {
       DB::table('blogs')->insert([
       		['title' => 'サンプルブログタイトル'.(string)$i,
-           'body'=>'サンプルブログ内容'.(string)$i]]
+           'body'=>'サンプルブログ内容'.(string)$i,
+           'blog_type_id'=>1
+         ],
+         ['title' => 'サンプルブログタイトル'.(string)$i,
+          'body'=>'サンプルブログ内容'.(string)$i,
+          'blog_type_id'=>2
+        ]
+         ]
          );
        DB::table('blog_medias')->insert([
         		['media_type_id' => 1,
