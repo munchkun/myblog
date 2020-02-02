@@ -1,8 +1,8 @@
 @extends('template')
 
-@section('title','研究者ブログ')
+@section('title','blog')
 
-@section('description','性についての研究者のブログです。')
+@section('description','性科学を扱ったコラム')
 
 @include('head')
 
