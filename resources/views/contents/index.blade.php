@@ -68,16 +68,6 @@
 
     <!-- ***** Why Chose Us Area Start ***** -->
     <section class="whyChoose-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="aboutUs-headline">
-                        <h2>Why choose us?</h2>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
 
         <div class="team--member-area">
             <div class="container-fluid">
@@ -99,9 +89,10 @@
                         </div>
                     </div>
                     @endforeach
-                    <!-- Single Team Member Area -->
                   </div>
               </div>
           </div>
+        </section>
+
     <!-- ***** Why Chose Us Area End ***** -->
 @endsection

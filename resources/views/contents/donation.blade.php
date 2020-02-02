@@ -1,8 +1,8 @@
 @extends('template')
 
-@section('title','あなたの体の不適切な話')
+@section('title','Donations')
 
-@section('description','あなたの体の不適切な話')
+@section('description','研究への寄付')
 
 @include('head')
 
@@ -22,7 +22,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="bradcumbContent text-right">
-                        <h2>TOP</h2>
+                        <h2>Donations</h2>
 
                     </div>
                 </div>
@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="aboutUs-headline">
-                        <h2>あなたの体の不適切な話</h2>
+                        <h2></h2>
                     </div>
                 </div>
             </div>
