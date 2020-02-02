@@ -17,7 +17,7 @@ class CreateMembersTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('role');
-            $table->file('picture');
+            $table->string('picture');
             $table->text('member_detail');
         });
     }
