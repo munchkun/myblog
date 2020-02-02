@@ -24,4 +24,12 @@ class TopController extends Controller
 
     return view('contents/blogs/researchercolumn',['blogs'=>$blogs]);
   }
+
+  public function blogmugi()
+  {
+
+    $blogs=Blog::all();
+
+    return view('contents/blogs/mugicolumn',['blogs'=>$blogs]);
+  }
 }
