@@ -7,7 +7,7 @@
     <!-- Title -->
     <title>@yield('title')</title>
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="{{asset('img/core-img/favicon.ico')}}">
     <!-- Core Stylesheet -->
     <link href="{{asset('style.css')}}" rel="stylesheet">
     <!-- Responsive CSS -->

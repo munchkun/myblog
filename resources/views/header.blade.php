@@ -20,12 +20,12 @@
                             </ul>
                             <!-- Search btn -->
                             <div class="search-button d-lg-none">
-                                <a href="#" class="search-btn"><img src="img/core-img/search-icon.png" alt="Search"></a>
+                                <a href="#" class="search-btn"><img src="{{asset('img/core-img/search-icon.png'}}" alt="Search"></a>
                             </div>
                         </div>
                         <!-- Search btn -->
                         <div class="search-button d-none d-lg-block">
-                            <a href="#" class="search-btn"><img src="img/core-img/search-icon.png" alt="Search"></a>
+                            <a href="#" class="search-btn"><img src="{{asset('img/core-img/search-icon.png')}}" alt="Search"></a>
                         </div>
                     </nav>
                 </div>
@@ -41,7 +41,7 @@
     <!-- Search Form -->
     <form action="#" method="post">
         <input type="search" name="search" id="search" placeholder="Type keywords &amp; hit enter">
-        <button type="submit" class="d-none"><img src="img/core-img/search-icon.png" alt="Search"></button>
+        <button type="submit" class="d-none"><img src="{{asset('img/core-img/search-icon.png')}}" alt="Search"></button>
     </form>
 </div>
 @endsection
