@@ -22,13 +22,8 @@
         <div class="row h-100 align-items-center">
             <div class="col-12">
                 <div class="bradcumbContent text-right">
-                    <h2>Contact</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                        </ol>
-                    </nav>
+                    <h2>News&Contact</h2>
+
                 </div>
             </div>
         </div>
@@ -40,29 +35,7 @@
 <section class="contact-area section_padding_100">
     <div class="container">
         <div class="row">
-            <!-- Contact Form Area -->
-            <div class="col-12 col-md-6">
-                <div class="contact-form-area">
-                    <h2>Contact form</h2>
-                    <form action="#">
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <input type="email" class="form-control" id="email" placeholder="E-mail">
-                            </div>
-                            <div class="col-12">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
-                            </div>
-                            <div class="col-12">
-                                <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
-                            </div>
-                            <button type="submit">send</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+
             <!-- Contact Information -->
             <div class="col-12 col-md-6">
                 <div class="contact-information">
