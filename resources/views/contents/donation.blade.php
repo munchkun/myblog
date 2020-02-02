@@ -37,16 +37,17 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="aboutUs-headline">
-                        <h2></h2>
+                        <h2>寄付</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md">
-                    <p>先に断っておく。不適切な話というキャッチコピーにしたが、私はこれ（性的なこと）が不適切なことだとは1ミリも思っていない。あなたが思うより不適切なことはあなたの好奇心をくすぐることや驚かせることで溢れている。どんな分野でもそうだが、プロフェッショナルの話す内容は非常に面白いが、使う言葉が難しかったり、理解に苦しむ難解な趣旨であることも珍しくない。このサイトでは性的な分野の内容を万人にわかりやすく、女子大生の私の視点でまとめていく。</p>
+                    <p>このサイトを見て興味を持ってくれた方の中でもしかしたら、研究の発展の貢献したいという方がいらっしゃるかもしれない。もしそのような方は下のボタンから寄付金受け付けている研究案件に対して寄付をお願いいたします。また、あなたが寄付してくださった研究の内容がどうなったのかについて研究結果など知りたい方はページ上のNews&Contactsに研究結果が出たものから随時載せていきます。
+                    結果を楽しみにお待ちくださいね。また、コラムの方でも詳しく取り上げることがあるので楽しみにしていてくださいね。</p>
                 </div>
                 <div class="col-12 col-md">
-                    <p>このサイトの目的は3つ。性的なことを科学的に研究する学問の分野がこの世には存在している。その分野に興味をもってくれる人間を増やすこと。また、この分野の初学者が楽しんで学んでもらえるように支援すること。最後に、その分野の研究者の仕事を増やしたり研究の支援をすること。そのために努力に限りを尽くしていこうと思うので、応援よろしくお願いいたします。</p>
+                    <p>またこのサイトでの研究資金の調達を考えている研究者の方はページ上のNews&ContactsからContactsに記載してあるメールアドレスにご連絡ください。メールに1週間以上返信がなかった場合はTwitterのDMまでお問い合わせください。よろしくお願いします。</p>
                 </div>
             </div>
         </div>
@@ -58,7 +59,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="aboutUs-btn">
-                        <a class="text-center" href="/blog">コラムへいく</a>
+                        <a class="text-center" href="/donationmatter">寄付しにいく</a>
                     </div>
                 </div>
             </div>
@@ -66,27 +67,5 @@
     </section>
     <!-- ***** About Us Area End ***** -->
 
-    <!-- ***** Why Chose Us Area Start ***** -->
-    <section class="whyChoose-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="aboutUs-headline">
-                        <h2>Why choose us?</h2>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="team--member-area">
-            <div class="container-fluid">
-                <div class="row">
-
-
-                    <!-- Single Team Member Area -->
-                  </div>
-              </div>
-          </div>
-    <!-- ***** Why Chose Us Area End ***** -->
 @endsection
