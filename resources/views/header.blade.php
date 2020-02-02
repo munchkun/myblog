@@ -12,11 +12,11 @@
                         <!-- Menu Area -->
                         <div class="collapse navbar-collapse" id="selene-navbar">
                             <ul class="navbar-nav ml-auto" id="nav">
-                                <li class="nav-item active"><a class="nav-link" href="/">ホーム</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/about">このサイトについて</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/blog">ブログ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/app">アプリ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/contact">お問い合わせ</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="/">Top</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/donation">Donations</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/blog">Blogs</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/app">Apps</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/contact">News&Contacts</a></li>
                             </ul>
                             <!-- Search btn -->
                             <div class="search-button d-lg-none">

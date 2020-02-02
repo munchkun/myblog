@@ -12,8 +12,8 @@ Route::get('blog/mugi', 'TopController@blogmugi');
 
 
 
-Route::get('about/', function () {
-    return view('contents/about');
+Route::get('donation/', function () {
+    return view('contents/donation');
 });
 
 
