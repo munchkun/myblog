@@ -9,7 +9,7 @@ Route::get('/', 'TopController@index');
 Route::get('blog/', 'TopController@blog');
 Route::get('blog/researcher', 'TopController@blogresearcher');
 Route::get('blog/mugi', 'TopController@blogmugi');
-
+Route::get('column_detail/{id}', 'TopController@columndetail');
 
 
 Route::get('donation/', function () {

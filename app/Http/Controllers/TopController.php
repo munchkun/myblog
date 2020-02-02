@@ -39,4 +39,13 @@ class TopController extends Controller
 
     return view('contents/blogs/mugicolumn',['blogs'=>$blogs]);
   }
+  public function columndetail($id)
+  {
+
+    $blog=Blog::find($id);
+
+
+    return view('contents/blogs/column_detail',['blog'=>$blog]);
+  }
+
 }
