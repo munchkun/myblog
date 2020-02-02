@@ -16,11 +16,12 @@ class TopController extends Controller
 
     return view('contents/index',['members'=>$members]);
   }
-  public function blog()
+  
+  public function resercherblog()
   {
 
     $blogs=Blog::all();
 
-    return view('contents/blog',['blogs'=>$blogs]);
+    return view('contents/blogs/column',['blogs'=>$blogs]);
   }
 }
