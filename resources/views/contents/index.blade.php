@@ -94,12 +94,7 @@
                                     <a href="#"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
-                            <!-- Team Content -->
-                            <div class="single-team-content">
-                                <h4>{{$member->name}}</h4>
-                                <span>{{$member->role}}</span>
-                                <p>{{$member->member_detail}}</p>
-                            </div>
+
 
                         </div>
                     </div>
