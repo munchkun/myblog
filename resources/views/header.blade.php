@@ -20,7 +20,7 @@
                             </ul>
                             <!-- Search btn -->
                             <div class="search-button d-lg-none">
-                                <a href="#" class="search-btn"><img src="{{asset('img/core-img/search-icon.png'}}" alt="Search"></a>
+                                <a href="#" class="search-btn"><img src="{{asset('img/core-img/search-icon.png')}}" alt="Search"></a>
                             </div>
                         </div>
                         <!-- Search btn -->
