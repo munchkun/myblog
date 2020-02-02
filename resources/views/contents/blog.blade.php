@@ -50,7 +50,7 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <div class="mx-auto" style="width: 200px;">
                   <div class="aboutUs-btn">
-                      <a class="text-center" href="/blog/mugi">コラムへいく</a>
+                      <a class="text-center" href="/blog/researcher">コラムへいく</a>
                   </div>
                 </div>
               </div>

@@ -14,8 +14,8 @@
 <div class="selene-breadcumb-area">
     <!-- Shape -->
     <div class="welcome-bg-shape">
-        <img class="welcome-first-shape" src="img/core-img/welcome-bg-1.png" alt="">
-        <img class="welcome-second-shape" src="img/core-img/welcome-bg-2.png" alt="">
+        <img class="welcome-first-shape" src="{{asset('img/core-img/welcome-bg-1.png')}}" alt="">
+        <img class="welcome-second-shape" src="{{asset('img/core-img/welcome-bg-2.png')}}" alt="">
     </div>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
