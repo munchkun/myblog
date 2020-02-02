@@ -16,10 +16,12 @@ class CreateBlogsTable extends Migration
       Schema::create('media_types', function (Blueprint $table) {
           $table->bigIncrements('id');
           $table->string('name');
+          $table->timestamps();
       });
       Schema::create('blog_types', function (Blueprint $table) {
           $table->bigIncrements('id');
           $table->string('name');
+          $table->timestamps();
       });
         Schema::create('blogs', function (Blueprint $table) {
             $table->bigIncrements('id');
@@ -36,6 +38,7 @@ class CreateBlogsTable extends Migration
             $table->string('media_file');
             $table->integer('blog_id')->unsigned();
             $table->foreign('blog_id')->references('id')->on('blogs')->onDelete('cascade');
+            $table->timestamps();
         });
     }
 

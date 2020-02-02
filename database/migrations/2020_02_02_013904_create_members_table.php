@@ -19,6 +19,7 @@ class CreateMembersTable extends Migration
             $table->string('role');
             $table->string('picture');
             $table->text('member_detail');
+            $table->timestamps();
         });
     }
 
