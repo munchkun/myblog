@@ -2,7 +2,7 @@
 <footer class="footer-area text-center clearfix">
     <!-- Shape 1 -->
     <div class="footer-bg-shape">
-        <img src="img/core-img/footer-bg.png" alt="Footer Shape">
+        <img src="" alt="Footer Shape">
     </div>
     <!-- Shape 2 -->
     <div class="footer-bg-shape-2">

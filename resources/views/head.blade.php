@@ -9,7 +9,7 @@
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
     <!-- Core Stylesheet -->
-    <link href="style.css" rel="stylesheet">
+    <link href="{{asset('style.css')}}" rel="stylesheet">
     <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
 @endsection
