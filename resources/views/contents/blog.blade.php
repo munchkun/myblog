@@ -37,7 +37,7 @@
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="aboutUs-headline">
-                    <h2>Blogs</h2>
+                    <h2>Column</h2>
                 </div>
             </div>
         </div>
