@@ -57,7 +57,7 @@
                   <label for="exampleInputPassword1">寄付金額(Yen)</label>
                   <input type="number" name="donation_money" class="form-control" placeholder="1000">
                 </div>
-                <script class="payjp-button" src="https://checkout.pay.jp/" data-key="pk_test_5b55ae95b353f4a356659456"></script>
+                <script class="payjp-button" src="https://checkout.pay.jp/" data-key="pk_test_c939abade1e616e06069596c"></script>
               </form>
               </div>
             </div>
