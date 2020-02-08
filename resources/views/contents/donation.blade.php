@@ -59,7 +59,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="aboutUs-btn">
-                        <a class="text-center" href="/donationmatter">寄付しにいく</a>
+                        <a class="text-center" href="/donation/menu">寄付しにいく</a>
                     </div>
                 </div>
             </div>

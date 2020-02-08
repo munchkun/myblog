@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Post;
 use App\Member;
 use App\Blog;
+use App\Donation;
 
 class TopController extends Controller
 {
@@ -46,6 +47,25 @@ class TopController extends Controller
 
 
     return view('contents/blogs/column_detail',['blog'=>$blog]);
+  }
+  public function donation(Request $request)
+  {
+
+    $request->email;
+
+    \Payjp\Payjp::setApiKey('sk_test_549d4368a701a3676967a6c5');
+    $charge = \Payjp\Charge::create(array(
+      'card' => $request->all()["payjp-token"],
+      'amount' => $request->donation_money,
+      'currency' => 'jpy'
+    ));
+    $donation = new Donation;
+    $donation->name=$request->name;
+    $donation->email=$request->email;
+    $donation->donation_money=$request->donation_money;
+    $donation->save();
+
+    return view('contents/thanks');
   }
 
 }

@@ -16,6 +16,14 @@ Route::get('donation/', function () {
     return view('contents/donation');
 });
 
+Route::get('donation/menu', function () {
+    return view('contents/donation_menu');
+});
+Route::get('donation/for_site', function () {
+    return view('contents/donation_for_site');
+});
+Route::post('donation/for_site', 'TopController@donation');
+
 
 Route::get('app/', function () {
     return view('contents/app');
