@@ -68,10 +68,5 @@
 </section>
 <!-- ***** Contact Area End ***** -->
 
-<!-- Google Maps -->
-<div class="map-area">
-    <div id="googleMap"></div>
-</div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-<script src="js/map-active.js"></script>
+
 @endsection

@@ -12,27 +12,11 @@
     <div class="container h-100">
         <div class="row h-100 justify-content-center">
             <div class="col-12 col-md-8">
-                <div class="footer-content">
-                    <h2>Purchase App</h2>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. </h4>
-                </div>
-                <div class="app-download-area">
-                    <div class="app-download-btn active">
-                        <!-- Google Store Btn -->
-                        <a href="#"><i class="fa fa-android"></i><p class="mb-0"><span>available on</span> Google Store</p></a>
-                    </div>
-                    <div class="app-download-btn">
-                        <!-- Apple Store Btn -->
-                        <a href="#"><i class="fa fa-apple"></i><p class="mb-0"><span>available on</span> Apple Store</p></a>
-                    </div>
-                </div>
+
+
                 <div class="footer-social-info">
-                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </div>
                 <!-- Foooter Text-->
                 <div class="copyright-text">
