@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Blog;
 
 class HomeController extends Controller
 {
@@ -21,6 +22,16 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+     public function blogresearcher()
+     {
+
+       $blogs=Blog::where('blog_type_id',1)->get();
+
+       return view('contents/blogs/researchercolumn',['blogs'=>$blogs]);
+     }
+
+
+
     public function index()
     {
         return view('home');

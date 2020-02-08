@@ -7,18 +7,14 @@ Route::get('/', 'TopController@index');
 
 //ブログ画面
 Route::get('blog/', 'TopController@blog');
-Route::get('blog/researcher', 'TopController@blogresearcher');
+Route::get('blog/researcher', 'HomeController@blogresearcher');
 Route::get('blog/mugi', 'TopController@blogmugi');
 Route::get('column_detail/{id}', 'TopController@columndetail');
 
 
-Route::get('donation/', function () {
-    return view('contents/donation');
-});
+Route::get('donation/', function () {return view('contents/donation');});
 
-Route::get('donation/menu', function () {
-    return view('contents/donation_menu');
-});
+Route::get('donation/menu', function () {return view('contents/donation_menu');});
 Route::get('donation/for_site', function () {
     return view('contents/donation_for_site');
 });
@@ -36,6 +32,14 @@ Route::get('contact/', function () {
 
 
 //Login
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
