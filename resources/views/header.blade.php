@@ -24,7 +24,7 @@
                         </div>
                         <!-- Search btn -->
                         <div class="search-button d-none d-lg-block">
-                            <a href="#" class="search-btn"><img src="{{asset('img/core-img/search-icon.png')}}" alt="Search"></a>
+                            <a href="#" class="search-btn">Login</a>
                         </div>
                     </nav>
                 </div>

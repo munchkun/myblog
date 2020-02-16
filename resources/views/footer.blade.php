@@ -1,4 +1,6 @@
 @section('footer')
+
+
 <footer class="footer-area text-center clearfix">
     <!-- Shape 1 -->
     <div class="footer-bg-shape">
