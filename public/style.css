@@ -3,7 +3,7 @@
 -------------------------- */
 
 /* --------------------------
-:: Template Name: Selene - App Landing Page 
+:: Template Name: Selene - App Landing Page
 :: Template Author: Colorlib
 :: Template Author URI: https://colorlib.com/
 :: Description: Selene is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super responsive & ultra light.
@@ -1142,6 +1142,106 @@ span.accor-open {
     background-color: #292d4f;
     color: #ffffff;
 }
+.aboutUs-btn > a {
+    background-color: #ff4c8b;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 140px;
+    height: 55px;
+    border-radius: 10px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+/* _card.scss:68 */
+.card-header {
+  padding: $card-spacer-y $card-spacer-x;
+  margin-bottom: 0; // Removes the default margin-bottom of <hN>
+  background-color: $card-cap-bg;
+  border-bottom: $card-border-width solid $card-border-color;
+
+  &:first-child {
+    @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
+  }
+
+  + .list-group {
+    .list-group-item:first-child {
+      border-top: 0;
+    }
+  }
+}
+
+/* _card.scss:201 */
+.card-header {
+  border-top-right-radius: 0;
+}
+
+/* _card.scss:214 */
+.card-header {
+  border-top-left-radius: 0;
+}
+
+/* _card.scss:227 */
+.card-header {
+  @include border-top-radius($card-border-radius);
+}
+
+
+
+
+
+
+
+.aboutUs-btn > button:hover,
+.single-price-plan .plan-button > a:focus,
+.aboutUs-btn > button:focus {
+    background-color: #292d4f;
+    color: #ffffff;
+}
+.aboutUs-btn > button {
+    background-color: #ff4c8b;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 140px;
+    height: 55px;
+    border-radius: 10px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.single-price-plan.active .plan-button > a {
+    background-color: #fff;
+    color: #ff4c8b;
+}
+
+.single-price-plan .plan-button > a:hover,
+.aboutUs-btn > a:hover,
+.single-price-plan .plan-button > a:focus,
+.aboutUs-btn > a:focus {
+    background-color: #292d4f;
+    color: #ffffff;
+}
+
+
+
+
+
+
 
 .single-price-plan.active {
     -webkit-transform: scale(1.1);

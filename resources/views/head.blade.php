@@ -10,6 +10,7 @@
     <link rel="icon" href="{{asset('img/core-img/favicon.ico')}}">
     <!-- Core Stylesheet -->
     <link href="{{asset('style.css')}}" rel="stylesheet">
+
     <!-- Responsive CSS -->
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
 @endsection
