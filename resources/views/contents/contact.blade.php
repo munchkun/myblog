@@ -39,8 +39,7 @@
             <!-- Contact Information -->
             <div class="col-12 col-md-6">
                 <div class="contact-information">
-                    <h2>Give us a shout</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac nibh sed mi ullamcorper rhoncus. Curabitur pulvinar vel augue sit amet vestibulum. Proin tempus lacus porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h2>ご意見、ご要望など</h2>
                     <div class="single-info">
                         <i class="fa fa-map"></i>
                         <span>4127 Raoul Wallenber4127 Raoul Wallen <br>berg Place</span>

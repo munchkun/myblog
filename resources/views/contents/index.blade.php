@@ -1,8 +1,8 @@
 @extends('template')
 
-@section('title','あなたの体の不適切な話')
+@section('title','あなたの体に眠っている性の話')
 
-@section('description','あなたの体の不適切な話')
+@section('description','あなたの体に眠っている性の話')
 
 @include('head')
 
@@ -74,20 +74,6 @@
                 <div class="row">
 
                     @foreach($members as $member)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg">
-                        <div class="single-team-member">
-                            <!-- Team Member Thumb -->
-                            <div class="team-member-thumb">
-                                <img src="{{ asset($member->picture) }}" alt="">
-                                <!-- Overlay -->
-                                <div class="team-member-overlay">
-                                    <a href="#"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
                     @endforeach
                   </div>
               </div>
