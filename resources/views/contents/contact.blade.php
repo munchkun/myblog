@@ -41,8 +41,6 @@
                 <div class="contact-information">
                     <h2>ご意見、ご要望など</h2>
                     <div class="single-info">
-                        <i class="fa fa-map"></i>
-                        <span>4127 Raoul Wallenber4127 Raoul Wallen <br>berg Place</span>
                     </div>
                     <div class="single-info">
                         <i class="fa fa-phone"></i>
@@ -50,15 +48,11 @@
                     </div>
                     <div class="single-info">
                         <i class="fa fa-envelope"></i>
-                        <span>Milothemes@gmail.com</span>
+                        <span>@gmail.com</span>
                     </div>
                     <div class="contact-social-info">
-                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

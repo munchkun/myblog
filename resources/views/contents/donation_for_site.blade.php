@@ -34,15 +34,15 @@
 <!-- ***** About Us Area Start ***** -->
 <section class="aboutUs-area">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="aboutUs-headline">
-                    <h2>Donation For Site</h2>
-                </div>
-            </div>
-        </div>
+      <div class="row justify-content-center">
+          <div class="col-md-8">
+        <div class="card">
+      <div class="card-header" style="background-color:#ff4c8b;
+                                     color: rgba(255, 255 ,255,1);
+                                     font-weight: 900;">寄付</div>
         <div class="row">
             <div class="col-sm-6">
+              <div class="card-body">
               <form method="POST" action="">
                 @csrf
                 <div class="form-group">
@@ -59,14 +59,25 @@
                 </div>
                 <script class="payjp-button" src="https://checkout.pay.jp/" data-key="pk_test_c939abade1e616e06069596c"></script>
               </form>
+            </div>
+            </div>
               </div>
             </div>
           </div>
-
+        </div>
+      </div>
           </div>
         </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </section>
 
 @endsection

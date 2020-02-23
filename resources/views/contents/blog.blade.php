@@ -48,6 +48,7 @@
               <div class="card-body">
                 <h5 class="card-title">研究者コラム</h5>
                 <p class="card-text">性科学に関連したコラムを掲載しています。こちらは主に性科学について最前線で研究している研究者の方々のコラムです。</p>
+                <br>
                 <div class="mx-auto" style="width: 200px;">
                   <div class="aboutUs-btn">
                       <a class="text-center" href="/blog/researcher">コラムへいく</a>
@@ -72,6 +73,20 @@
         </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
 </section>
 
 @endsection

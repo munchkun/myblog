@@ -1,11 +1,48 @@
-@extends('layouts.app')
+@extends('template')
+
+@section('title','研究者ブログ')
+
+@section('description','性についての研究者のブログです。')
+
+@include('head')
+
+@include('header')
+
+@include('footer')
 
 @section('content')
+
+<script type="text/css">
+
+
+</script>
+
+<!-- ***** Breadcumb Area Start ***** -->
+<div class="selene-breadcumb-area">
+    <!-- Shape -->
+    <div class="welcome-bg-shape">
+        <img class="welcome-first-shape" src="img/core-img/welcome-bg-1.png" alt="">
+        <img class="welcome-second-shape" src="img/core-img/welcome-bg-2.png" alt="">
+    </div>
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12">
+                <div class="bradcumbContent text-right">
+                    <h2>Register</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('アカウント登録') }}</div>
+              <div class="card-header" style="background-color:#ff4c8b;
+                                             color: rgba(255, 255 ,255,1);
+                                             font-weight: 900;
+              " >{{ __('アカウント登録') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -61,17 +98,47 @@
                             </div>
                         </div>
 
+                        <div class="mx-auto" style="width: 200px;">
                         <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('登録') }}
+                            <div class="aboutUs-btn">
+                                <button type="submit">
+                                      {{ __('登録') }}
                                 </button>
                             </div>
                         </div>
+                      </div>
+                    </div>
+
+                    <a class="btn btn-link" href="/login">
+                      アカウントをお持ちの方
+                    </a>
+
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 @endsection

@@ -29,8 +29,7 @@
         <div class="row h-100 align-items-center">
             <div class="col-12">
                 <div class="bradcumbContent text-right">
-                    <h2>News&Contact</h2>
-
+                    <h2>Login</h2>
                 </div>
             </div>
         </div>
@@ -105,6 +104,10 @@
                                               <a class="btn btn-link" href="{{ route('password.request') }}">
                                                   {{ __('パスワードを忘れた方') }}
                                               </a>
+
+                                              <a class="btn btn-link" href="/register">
+                                                アカウントをお持ちでない方
+                                              </a>
                                           @endif
                                       </div>
                                   </div>
@@ -122,7 +125,19 @@
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!-- ***** Contact Area End ***** -->
 @endsection
