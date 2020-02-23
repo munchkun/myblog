@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e50930c-9e10-45dd-899c-4c6cc50be6dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contents/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contents/donation_for_site.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contents/donation_for_site.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +11,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -155,7 +153,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581818408111</updated>
-      <workItem from="1581818409729" duration="252000" />
+      <workItem from="1581818409729" duration="987000" />
+      <workItem from="1582335982716" duration="672000" />
+      <workItem from="1582434063414" duration="22000" />
+      <workItem from="1582434138314" duration="731000" />
     </task>
     <servers />
   </component>
@@ -167,7 +168,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

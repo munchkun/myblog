@@ -11,6 +11,25 @@
 @include('footer')
 
 @section('content')
+
+    <style type="text/css">
+        #payjp_checkout_box input[type=button]
+        {
+            -webkit-appearance:none;
+            border-radius:2px;display:inline-block;padding:.5em 1em;font-size:12px;
+            text-align:center;
+            white-space:nowrap;vertical-align:middle;
+            cursor:pointer;border:1px solid #2FA0DC;
+            color:#fff;background-color:#198fcc;background-image:-webkit-linear-gradient(#35a9e6 0,#319cd3 48%,#2590c7 100%);
+            background-image:-moz-linear-gradient(#35a9e6 0,#319cd3 48%,#2590c7 100%);
+            background-image:-o-linear-gradient(#35a9e6 0,#319cd3 48%,#2590c7 100%);
+            background-image:linear-gradient(#35a9e6 0,#319cd3 48%,#2590c7 100%)}#payjp_checkout_box input[type=button].has-token{border:1px solid #1C9A1C;
+                                                                                     background-color:#469C46;background-image:none
+                                                                                 }
+    </style>
+
+
+
 <div class="selene-breadcumb-area">
     <!-- Shape -->
     <div class="welcome-bg-shape">
@@ -57,7 +76,14 @@
                   <label for="exampleInputPassword1">寄付金額(Yen)</label>
                   <input type="number" name="donation_money" class="form-control" placeholder="1000">
                 </div>
-                <script class="payjp-button" src="https://checkout.pay.jp/" data-key="pk_test_c939abade1e616e06069596c"></script>
+                <script class="payjp-button"
+                        src="https://checkout.pay.jp/"
+                        data-key="pk_test_c939abade1e616e06069596c"
+                        data-text="寄付"
+                >
+
+
+                </script>
               </form>
             </div>
             </div>
