@@ -95,12 +95,14 @@
                                   <div class="form-group row mb-0">
                                       <div class="col-md-8 offset-md-4">
 
+
                                           <div class="mx-auto" style="width: 200px;">
                                             <div class="aboutUs-btn">
                                               <button type="submit" >ログイン</button>
                                             </div>
-                                          </div>
-                                          @if (Route::has('password.request'))
+                                            <br>
+                                            <a href="/auth/login/facebook" class="m-r3 login_facebook"><img src="https://menta.work/resource/img/facebook.png" width="47"></a>
+                                        @if (Route::has('password.request'))
                                               <a class="btn btn-link" href="{{ route('password.request') }}">
                                                   {{ __('パスワードを忘れた方') }}
                                               </a>
@@ -108,6 +110,7 @@
                                               <a class="btn btn-link" href="/register">
                                                 アカウントをお持ちでない方
                                               </a>
+
                                           @endif
                                       </div>
                                   </div>

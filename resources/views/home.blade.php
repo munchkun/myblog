@@ -1,4 +1,14 @@
-@extends('layouts.app')
+@extends('template')
+
+@section('title','ムギのアプリ')
+
+@section('description','ムギのアプリ')
+
+@include('head')
+
+@include('header')
+
+@include('footer')
 
 @section('content')
 <div class="container">

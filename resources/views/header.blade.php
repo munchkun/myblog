@@ -19,12 +19,24 @@
                             </ul>
                             <!-- Search btn -->
                             <div class="search-button d-lg-none">
-                                <a href="#" class="search-btn"><img src="{{asset('img/core-img/search-icon.png')}}" alt="Search"></a>
+                                @auth
+                                    <a href="/logout">Logout</a>
+                                @endauth
+                                @guest
+
+                                    <a href="/login">Login</a>
+                                @endguest
                             </div>
                         </div>
                         <!-- Search btn -->
                         <div class="search-button d-none d-lg-block">
-                            <a href="#" class="search-btn">Login</a>
+                            @auth
+                                <a href="/logout">Logout</a>
+                            @endauth
+                            @guest
+                                    <a href="/login">Login</a>
+                            @endguest
+
                         </div>
                     </nav>
                 </div>

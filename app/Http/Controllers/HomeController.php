@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Blog;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -30,7 +31,11 @@ class HomeController extends Controller
        return view('contents/blogs/researchercolumn',['blogs'=>$blogs]);
      }
 
-
+     public function logout()
+     {
+       Auth::logout();
+      return redirect('/');
+     }
 
     public function index()
     {
